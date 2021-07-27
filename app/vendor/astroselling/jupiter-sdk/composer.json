@@ -1,0 +1,20 @@
+{
+    "name": "astroselling/jupiter-sdk",
+    "type": "library",
+    "description": "Astroselling´s integration SDK",
+    "keywords": ["astgroselling","integration","api","rest"],
+    "homepage": "https://astroselling.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jorge Craviotto",
+            "email": "jorge.craviotto@astroselling.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"astroselling\\Jupiter\\": "src/"}
+    },
+    "require": {
+        "katzgrau/klogger": "dev-master"
+    }    
+}
